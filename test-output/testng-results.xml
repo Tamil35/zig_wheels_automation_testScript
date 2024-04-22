@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-08T14:48:46 IST" name="Suite" finished-at="2024-04-08T14:50:18 IST" duration-ms="92363">
+    <groups>
+    </groups>
+    <test started-at="2024-04-08T14:48:46 IST" name="ZigWheels(Chrome)-Test" finished-at="2024-04-08T14:50:18 IST" duration-ms="92363">
+      <class name="testSuites.TestSuite3_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testSuites.TestSuite3_Login@1ff4931d]" started-at="2024-04-08T14:50:00 IST" name="setup" finished-at="2024-04-08T14:50:08 IST" duration-ms="8640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="valiateLoginButtonIsClickable()[pri:1, instance:testSuites.TestSuite3_Login@1ff4931d]" started-at="2024-04-08T14:50:08 IST" name="valiateLoginButtonIsClickable" description="Validating whether Login is Clickable" finished-at="2024-04-08T14:50:08 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valiateLoginButtonIsClickable -->
+        <test-method signature="validateLoginScreenVisible()[pri:2, instance:testSuites.TestSuite3_Login@1ff4931d]" started-at="2024-04-08T14:50:08 IST" name="validateLoginScreenVisible" description="Validating whether Login Page is getting opened after Clicking" finished-at="2024-04-08T14:50:09 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginScreenVisible -->
+        <test-method signature="validateGoogleButtonIsClickable()[pri:3, instance:testSuites.TestSuite3_Login@1ff4931d]" started-at="2024-04-08T14:50:09 IST" name="validateGoogleButtonIsClickable" description="Validating whether Google is Clickabe" finished-at="2024-04-08T14:50:09 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleButtonIsClickable -->
+        <test-method signature="validateGoogleLink()[pri:4, instance:testSuites.TestSuite3_Login@1ff4931d]" started-at="2024-04-08T14:50:09 IST" name="validateGoogleLink" description="Validating whether Google-Sign-In Page is getting opened after Clicking" finished-at="2024-04-08T14:50:14 IST" duration-ms="5336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleLink -->
+        <test-method signature="captureErrorMessafeWithInvalidMail()[pri:5, instance:testSuites.TestSuite3_Login@1ff4931d]" started-at="2024-04-08T14:50:14 IST" name="captureErrorMessafeWithInvalidMail" description="Validating whether error message is displayed when invalid gmail id is entered and Capturing the error message" finished-at="2024-04-08T14:50:15 IST" duration-ms="1276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureErrorMessafeWithInvalidMail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testSuites.TestSuite3_Login@1ff4931d]" started-at="2024-04-08T14:50:15 IST" name="tearDown" finished-at="2024-04-08T14:50:18 IST" duration-ms="2717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSuites.TestSuite3_Login -->
+      <class name="testSuites.TestSuite1_UpcomingHondaBikes">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testSuites.TestSuite1_UpcomingHondaBikes@2925bf5b]" started-at="2024-04-08T14:48:46 IST" name="setup" finished-at="2024-04-08T14:48:56 IST" duration-ms="10155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateNewBikesDropdown()[pri:1, instance:testSuites.TestSuite1_UpcomingHondaBikes@2925bf5b]" started-at="2024-04-08T14:48:56 IST" name="validateNewBikesDropdown" description="Validating Dropdown of New-Bikes Section and Capturing the Options" finished-at="2024-04-08T14:49:00 IST" duration-ms="3156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewBikesDropdown -->
+        <test-method signature="validateUpcomingBikeIsClickable()[pri:2, instance:testSuites.TestSuite1_UpcomingHondaBikes@2925bf5b]" started-at="2024-04-08T14:49:00 IST" name="validateUpcomingBikeIsClickable" description="Validating whether Upcoming-Bikes Button is Clickable" finished-at="2024-04-08T14:49:00 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUpcomingBikeIsClickable -->
+        <test-method signature="validateUpcomingBikesButton()[pri:3, instance:testSuites.TestSuite1_UpcomingHondaBikes@2925bf5b]" started-at="2024-04-08T14:49:00 IST" name="validateUpcomingBikesButton" description="Validating whether Upcoming-Bikes-Page is getting opened after Clicking" finished-at="2024-04-08T14:49:02 IST" duration-ms="2222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUpcomingBikesButton -->
+        <test-method signature="validateManufacturerDropdown()[pri:4, instance:testSuites.TestSuite1_UpcomingHondaBikes@2925bf5b]" started-at="2024-04-08T14:49:02 IST" name="validateManufacturerDropdown" description="Validating and Getting Dropdown of Manufacturing" finished-at="2024-04-08T14:49:07 IST" duration-ms="4590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateManufacturerDropdown -->
+        <test-method signature="validateHondaButtonIsClickable()[pri:5, instance:testSuites.TestSuite1_UpcomingHondaBikes@2925bf5b]" started-at="2024-04-08T14:49:07 IST" name="validateHondaButtonIsClickable" description="Validating whether Honda Button is Clickable" finished-at="2024-04-08T14:49:07 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHondaButtonIsClickable -->
+        <test-method signature="validateHondaButton()[pri:6, instance:testSuites.TestSuite1_UpcomingHondaBikes@2925bf5b]" started-at="2024-04-08T14:49:07 IST" name="validateHondaButton" description="Validating whether Upcoming-Honda-Bikes-Page is getting opened after Clicking" finished-at="2024-04-08T14:49:08 IST" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHondaButton -->
+        <test-method signature="validateViewMoreButtonIsClickable()[pri:7, instance:testSuites.TestSuite1_UpcomingHondaBikes@2925bf5b]" started-at="2024-04-08T14:49:08 IST" name="validateViewMoreButtonIsClickable" description="Validating whether View-More Button is Clickable" finished-at="2024-04-08T14:49:08 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateViewMoreButtonIsClickable -->
+        <test-method signature="validateUpcomingHondaBikes()[pri:8, instance:testSuites.TestSuite1_UpcomingHondaBikes@2925bf5b]" started-at="2024-04-08T14:49:08 IST" name="validateUpcomingHondaBikes" description="Validating whether only Upcoming Honda Bikes showing in the page" finished-at="2024-04-08T14:49:10 IST" duration-ms="2104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUpcomingHondaBikes -->
+        <test-method signature="validateTheMessage()[pri:9, instance:testSuites.TestSuite1_UpcomingHondaBikes@2925bf5b]" started-at="2024-04-08T14:49:10 IST" name="validateTheMessage" description="Validating whether the number of bikes displayed and in the message that shows the numbers are same" finished-at="2024-04-08T14:49:10 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheMessage -->
+        <test-method signature="displayAllBikeDetails()[pri:10, instance:testSuites.TestSuite1_UpcomingHondaBikes@2925bf5b]" started-at="2024-04-08T14:49:10 IST" name="displayAllBikeDetails" description="Displaying All Upcoming Honda Bikes" finished-at="2024-04-08T14:49:15 IST" duration-ms="4893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayAllBikeDetails -->
+        <test-method signature="displayBelow4LakhBikeDetails()[pri:11, instance:testSuites.TestSuite1_UpcomingHondaBikes@2925bf5b]" started-at="2024-04-08T14:49:15 IST" name="displayBelow4LakhBikeDetails" description="Displaying Upcoming Honda Bikes Less Than 4Lakhs" finished-at="2024-04-08T14:49:32 IST" duration-ms="16862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayBelow4LakhBikeDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testSuites.TestSuite1_UpcomingHondaBikes@2925bf5b]" started-at="2024-04-08T14:49:32 IST" name="tearDown" finished-at="2024-04-08T14:49:40 IST" duration-ms="8383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSuites.TestSuite1_UpcomingHondaBikes -->
+      <class name="testSuites.TestSuite2_UsedCarsInChennai">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testSuites.TestSuite2_UsedCarsInChennai@710f4dc7]" started-at="2024-04-08T14:49:40 IST" name="setup" finished-at="2024-04-08T14:49:51 IST" duration-ms="10755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUsedCarsDropdown()[pri:1, instance:testSuites.TestSuite2_UsedCarsInChennai@710f4dc7]" started-at="2024-04-08T14:49:51 IST" name="validateUsedCarsDropdown" description="Validating and Getting Dropdown of Used-Cars Section" finished-at="2024-04-08T14:49:52 IST" duration-ms="1171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsedCarsDropdown -->
+        <test-method signature="validateChennaiIsClickable()[pri:2, instance:testSuites.TestSuite2_UsedCarsInChennai@710f4dc7]" started-at="2024-04-08T14:49:52 IST" name="validateChennaiIsClickable" description="Validating whether Chennai Button is Clickable" finished-at="2024-04-08T14:49:52 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateChennaiIsClickable -->
+        <test-method signature="validateChennaiLink()[pri:3, instance:testSuites.TestSuite2_UsedCarsInChennai@710f4dc7]" started-at="2024-04-08T14:49:52 IST" name="validateChennaiLink" description="Validating whether Used-Cars-In-Chennai-Page is getting opened after Clicking" finished-at="2024-04-08T14:49:55 IST" duration-ms="2827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateChennaiLink -->
+        <test-method signature="validatePopularModelsIsDisplayed()[pri:4, instance:testSuites.TestSuite2_UsedCarsInChennai@710f4dc7]" started-at="2024-04-08T14:49:55 IST" name="validatePopularModelsIsDisplayed" description="Validating whether Popular Models section is displayed or not" finished-at="2024-04-08T14:49:55 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePopularModelsIsDisplayed -->
+        <test-method signature="displayPopularModels()[pri:5, instance:testSuites.TestSuite2_UsedCarsInChennai@710f4dc7]" started-at="2024-04-08T14:49:55 IST" name="displayPopularModels" description="Displaying All Popular Models in Chennai-Used-Cars Page" finished-at="2024-04-08T14:49:56 IST" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayPopularModels -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testSuites.TestSuite2_UsedCarsInChennai@710f4dc7]" started-at="2024-04-08T14:49:56 IST" name="tearDown" finished-at="2024-04-08T14:50:00 IST" duration-ms="3334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSuites.TestSuite2_UsedCarsInChennai -->
+    </test> <!-- ZigWheels(Chrome)-Test -->
+  </suite> <!-- Suite -->
+</testng-results>

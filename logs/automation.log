@@ -1,0 +1,108 @@
+14:48:47.515 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Testing Started
+14:48:56.860 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Opening Zig Wheels Home Page
+14:48:56.888 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - ***TS01 - Starts***
+14:48:56.888 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC01 - Starts**
+14:48:57.118 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Hovering to New Bikes Option
+14:48:57.602 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Capturing the Options in New Bikes Dropdown
+14:48:57.603 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Validating the Options in New Bikes Dropdown
+14:49:00.034 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC01 - Completes**
+14:49:00.084 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC02 - Starts**
+14:49:00.084 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Getting the Upcoming Bikes Button
+14:49:00.084 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Validating Upcoming-Bikes Button is Clickable
+14:49:00.221 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC02 - Completes**
+14:49:00.225 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC03 - Starts**
+14:49:02.409 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Clicking the Upcoming-Bikes Button
+14:49:02.409 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Validating the New Page URL whether the Button navigating to Upcoming Bikes Page
+14:49:02.444 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC03 - Completes**
+14:49:02.450 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC04 - Starts**
+14:49:03.571 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Capturing the Options in Manufactuer Dropdown
+14:49:03.571 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Validating the Options in Manufacturer Dropdown
+14:49:07.037 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC04 - Completes**
+14:49:07.044 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC05 - Starts**
+14:49:07.168 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Getting the Honda Button
+14:49:07.168 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Validating the Honda Button is Clickable
+14:49:07.217 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC05 - Completes**
+14:49:07.225 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC06 - Starts**
+14:49:08.384 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Selecting Honda Option From Manufacturer Dropdown
+14:49:08.385 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Validating the New Page URL whether the Option navigating to Honda Upcoming Bikes Page
+14:49:08.420 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC06 - Completes**
+14:49:08.433 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC07 - Starts**
+14:49:08.433 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Getting View More Button
+14:49:08.434 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Validating the View More Button Is Clickable
+14:49:08.529 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC07 - Completes**
+14:49:08.539 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC08 - Starts**
+14:49:08.922 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Clicking View More Button
+14:49:10.639 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Getting all Honda Upcoming Bikes to validata only honda bikes are shown
+14:49:10.640 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Validating the Upcoming Bikes are only from Honda
+14:49:10.640 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC08 - Completes**
+14:49:10.647 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC09 - Starts**
+14:49:10.671 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Getting No. of Honda Upcoming Bikes from message
+14:49:10.681 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Getting No. of Honda Upcoming Bikes from page
+14:49:10.681 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Validating the Message count is matching with showing bikes count
+14:49:10.681 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC09 - Completes**
+14:49:10.684 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC10 - Starts**
+14:49:12.177 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Getting All Honda Upcoming Bikes
+14:49:12.177 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Displaying All Honda Upcoming Bikes
+14:49:15.575 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC10 - Completes**
+14:49:15.581 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC11 - Starts**
+14:49:17.321 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Getting Honda Upcoming Bikes Below 4-Lakhs
+14:49:17.321 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Displaying Honda Upcoming Bikes Below 4-Lakhs
+14:49:32.441 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - **TC11 - Completes**
+14:49:32.441 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - ***TS01 - Completes***
+14:49:32.445 [main] INFO  testSuites.TestSuite1_UpcomingHondaBikes - Testing Ended
+14:49:40.829 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - Testing Started
+14:49:51.580 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - Opening Zig Wheels Home Page
+14:49:51.586 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - ***TS02 - Starts***
+14:49:51.586 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - **TC01 - Starts**
+14:49:51.788 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - Hovering to Used Cars Option
+14:49:52.130 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - Capturing the Options in Used Cars Dropdown
+14:49:52.130 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - Validating the Options in Used Cars Dropdown
+14:49:52.755 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - **TC01 - Completes**
+14:49:52.762 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - **TC02 - Starts**
+14:49:52.762 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - Getting the Chennai Button
+14:49:52.762 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - Validating Chennai Button is Clickable
+14:49:52.837 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - **TC02 - Completes**
+14:49:52.839 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - **TC03 - Starts**
+14:49:55.639 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - Clicking the Chennai Button
+14:49:55.639 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - Validating the New Page URL whether the Button navigating to Used Cars in Chennai Page
+14:49:55.665 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - **TC03 - Completes**
+14:49:55.669 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - **TC04 - Starts**
+14:49:55.672 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - Getting the Section WebElement of Popular Models
+14:49:55.672 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - Validating the Section - Popular Models is Displayed
+14:49:55.793 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - **TC04 - Completes**
+14:49:55.799 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - **TC05 - Starts**
+14:49:55.972 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - Getting the List of Popular Models
+14:49:55.973 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - Displaying the  Popular Models
+14:49:56.804 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - **TC05 - Completes**
+14:49:56.804 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - ***TS02 - Completes***
+14:49:56.809 [main] INFO  testSuites.TestSuite2_UsedCarsInChennai - Testing Ended
+14:50:00.143 [main] INFO  testSuites.TestSuite3_Login - Testing Started
+14:50:08.780 [main] INFO  testSuites.TestSuite3_Login - Opening Zig Wheels Home Page
+14:50:08.783 [main] INFO  testSuites.TestSuite3_Login - ***TS03 - Starts***
+14:50:08.784 [main] INFO  testSuites.TestSuite3_Login - **TC01 - Starts**
+14:50:08.785 [main] INFO  testSuites.TestSuite3_Login - Getting the Login Button
+14:50:08.785 [main] INFO  testSuites.TestSuite3_Login - Validating the Login Button is Clickable
+14:50:08.851 [main] INFO  testSuites.TestSuite3_Login - **TC01 - Completes**
+14:50:08.853 [main] INFO  testSuites.TestSuite3_Login - **TC02 - Starts**
+14:50:09.029 [main] INFO  testSuites.TestSuite3_Login - Clicking the Login Button
+14:50:09.134 [main] INFO  testSuites.TestSuite3_Login - Getting the Heading of Login Screen
+14:50:09.135 [main] INFO  testSuites.TestSuite3_Login - Validating the Login Screen
+14:50:09.135 [main] INFO  testSuites.TestSuite3_Login - **TC02 - Completes**
+14:50:09.144 [main] INFO  testSuites.TestSuite3_Login - **TC03 - Starts**
+14:50:09.144 [main] INFO  testSuites.TestSuite3_Login - Getting the Google Login Button
+14:50:09.144 [main] INFO  testSuites.TestSuite3_Login - Validating the Google Button is Clickable
+14:50:09.297 [main] INFO  testSuites.TestSuite3_Login - **TC03 - Completes**
+14:50:09.301 [main] INFO  testSuites.TestSuite3_Login - **TC04 - Starts**
+14:50:09.458 [main] INFO  testSuites.TestSuite3_Login - Clicking the Google Button
+14:50:14.616 [main] INFO  testSuites.TestSuite3_Login - Switching to Google Sign-in page
+14:50:14.635 [main] INFO  testSuites.TestSuite3_Login - Getting the Title of Page
+14:50:14.636 [main] INFO  testSuites.TestSuite3_Login - Validating the Google Sign-in Page
+14:50:14.636 [main] INFO  testSuites.TestSuite3_Login - **TC04 - Completes**
+14:50:14.642 [main] INFO  testSuites.TestSuite3_Login - **TC05 - Starts**
+14:50:14.967 [main] INFO  testSuites.TestSuite3_Login - Setting the Email as Invalid Email
+14:50:15.561 [main] INFO  testSuites.TestSuite3_Login - Clicking the Next Button
+14:50:15.852 [main] INFO  testSuites.TestSuite3_Login - Getting the Error Message
+14:50:15.852 [main] INFO  testSuites.TestSuite3_Login - Displaying the Error Message
+14:50:15.915 [main] INFO  testSuites.TestSuite3_Login - **TC05 - Completes**
+14:50:15.915 [main] INFO  testSuites.TestSuite3_Login - ***TS03 - Completes***
+14:50:15.917 [main] INFO  testSuites.TestSuite3_Login - Testing Ended

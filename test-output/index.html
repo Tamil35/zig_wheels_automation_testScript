@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2318907\OneDrive - Cognizant\eclipse\HackthonProject_V2\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite3_Login" class="method navigator-link" hash-for-method="captureErrorMessafeWithInvalidMail">captureErrorMessafeWithInvalidMail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite1_UpcomingHondaBikes" class="method navigator-link" hash-for-method="displayAllBikeDetails">displayAllBikeDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite1_UpcomingHondaBikes" class="method navigator-link" hash-for-method="displayBelow4LakhBikeDetails">displayBelow4LakhBikeDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite2_UsedCarsInChennai" class="method navigator-link" hash-for-method="displayPopularModels">displayPopularModels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite3_Login" class="method navigator-link" hash-for-method="valiateLoginButtonIsClickable">valiateLoginButtonIsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite2_UsedCarsInChennai" class="method navigator-link" hash-for-method="validateChennaiIsClickable">validateChennaiIsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite2_UsedCarsInChennai" class="method navigator-link" hash-for-method="validateChennaiLink">validateChennaiLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite3_Login" class="method navigator-link" hash-for-method="validateGoogleButtonIsClickable">validateGoogleButtonIsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite3_Login" class="method navigator-link" hash-for-method="validateGoogleLink">validateGoogleLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite1_UpcomingHondaBikes" class="method navigator-link" hash-for-method="validateHondaButton">validateHondaButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite1_UpcomingHondaBikes" class="method navigator-link" hash-for-method="validateHondaButtonIsClickable">validateHondaButtonIsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite3_Login" class="method navigator-link" hash-for-method="validateLoginScreenVisible">validateLoginScreenVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite1_UpcomingHondaBikes" class="method navigator-link" hash-for-method="validateManufacturerDropdown">validateManufacturerDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite1_UpcomingHondaBikes" class="method navigator-link" hash-for-method="validateNewBikesDropdown">validateNewBikesDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite2_UsedCarsInChennai" class="method navigator-link" hash-for-method="validatePopularModelsIsDisplayed">validatePopularModelsIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite1_UpcomingHondaBikes" class="method navigator-link" hash-for-method="validateTheMessage">validateTheMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite1_UpcomingHondaBikes" class="method navigator-link" hash-for-method="validateUpcomingBikeIsClickable">validateUpcomingBikeIsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite1_UpcomingHondaBikes" class="method navigator-link" hash-for-method="validateUpcomingBikesButton">validateUpcomingBikesButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite1_UpcomingHondaBikes" class="method navigator-link" hash-for-method="validateUpcomingHondaBikes">validateUpcomingHondaBikes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite2_UsedCarsInChennai" class="method navigator-link" hash-for-method="validateUsedCarsDropdown">validateUsedCarsDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testSuites.TestSuite1_UpcomingHondaBikes" class="method navigator-link" hash-for-method="validateViewMoreButtonIsClickable">validateViewMoreButtonIsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testSuites.TestSuite2_UsedCarsInChennai</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayPopularModels">
+                  </a> <!-- displayPopularModels -->
+                  <span class="method-name">displayPopularModels</span>
+                  <em>
+(Displaying All Popular Models in Chennai-Used-Cars Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateChennaiIsClickable">
+                  </a> <!-- validateChennaiIsClickable -->
+                  <span class="method-name">validateChennaiIsClickable</span>
+                  <em>
+(Validating whether Chennai Button is Clickable)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateChennaiLink">
+                  </a> <!-- validateChennaiLink -->
+                  <span class="method-name">validateChennaiLink</span>
+                  <em>
+(Validating whether Used-Cars-In-Chennai-Page is getting opened after Clicking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePopularModelsIsDisplayed">
+                  </a> <!-- validatePopularModelsIsDisplayed -->
+                  <span class="method-name">validatePopularModelsIsDisplayed</span>
+                  <em>
+(Validating whether Popular Models section is displayed or not)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUsedCarsDropdown">
+                  </a> <!-- validateUsedCarsDropdown -->
+                  <span class="method-name">validateUsedCarsDropdown</span>
+                  <em>
+(Validating and Getting Dropdown of Used-Cars Section)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testSuites.TestSuite1_UpcomingHondaBikes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayAllBikeDetails">
+                  </a> <!-- displayAllBikeDetails -->
+                  <span class="method-name">displayAllBikeDetails</span>
+                  <em>
+(Displaying All Upcoming Honda Bikes)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayBelow4LakhBikeDetails">
+                  </a> <!-- displayBelow4LakhBikeDetails -->
+                  <span class="method-name">displayBelow4LakhBikeDetails</span>
+                  <em>
+(Displaying Upcoming Honda Bikes Less Than 4Lakhs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHondaButton">
+                  </a> <!-- validateHondaButton -->
+                  <span class="method-name">validateHondaButton</span>
+                  <em>
+(Validating whether Upcoming-Honda-Bikes-Page is getting opened after Clicking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHondaButtonIsClickable">
+                  </a> <!-- validateHondaButtonIsClickable -->
+                  <span class="method-name">validateHondaButtonIsClickable</span>
+                  <em>
+(Validating whether Honda Button is Clickable)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateManufacturerDropdown">
+                  </a> <!-- validateManufacturerDropdown -->
+                  <span class="method-name">validateManufacturerDropdown</span>
+                  <em>
+(Validating and Getting Dropdown of Manufacturing)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNewBikesDropdown">
+                  </a> <!-- validateNewBikesDropdown -->
+                  <span class="method-name">validateNewBikesDropdown</span>
+                  <em>
+(Validating Dropdown of New-Bikes Section and Capturing the Options)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTheMessage">
+                  </a> <!-- validateTheMessage -->
+                  <span class="method-name">validateTheMessage</span>
+                  <em>
+(Validating whether the number of bikes displayed and in the message that shows the numbers are same)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUpcomingBikeIsClickable">
+                  </a> <!-- validateUpcomingBikeIsClickable -->
+                  <span class="method-name">validateUpcomingBikeIsClickable</span>
+                  <em>
+(Validating whether Upcoming-Bikes Button is Clickable)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUpcomingBikesButton">
+                  </a> <!-- validateUpcomingBikesButton -->
+                  <span class="method-name">validateUpcomingBikesButton</span>
+                  <em>
+(Validating whether Upcoming-Bikes-Page is getting opened after Clicking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUpcomingHondaBikes">
+                  </a> <!-- validateUpcomingHondaBikes -->
+                  <span class="method-name">validateUpcomingHondaBikes</span>
+                  <em>
+(Validating whether only Upcoming Honda Bikes showing in the page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateViewMoreButtonIsClickable">
+                  </a> <!-- validateViewMoreButtonIsClickable -->
+                  <span class="method-name">validateViewMoreButtonIsClickable</span>
+                  <em>
+(Validating whether View-More Button is Clickable)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testSuites.TestSuite3_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="captureErrorMessafeWithInvalidMail">
+                  </a> <!-- captureErrorMessafeWithInvalidMail -->
+                  <span class="method-name">captureErrorMessafeWithInvalidMail</span>
+                  <em>
+(Validating whether error message is displayed when invalid gmail id is entered and Capturing the error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valiateLoginButtonIsClickable">
+                  </a> <!-- valiateLoginButtonIsClickable -->
+                  <span class="method-name">valiateLoginButtonIsClickable</span>
+                  <em>
+(Validating whether Login is Clickable)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGoogleButtonIsClickable">
+                  </a> <!-- validateGoogleButtonIsClickable -->
+                  <span class="method-name">validateGoogleButtonIsClickable</span>
+                  <em>
+(Validating whether Google is Clickabe)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGoogleLink">
+                  </a> <!-- validateGoogleLink -->
+                  <span class="method-name">validateGoogleLink</span>
+                  <em>
+(Validating whether Google-Sign-In Page is getting opened after Clicking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginScreenVisible">
+                  </a> <!-- validateLoginScreenVisible -->
+                  <span class="method-name">validateLoginScreenVisible</span>
+                  <em>
+(Validating whether Login Page is getting opened after Clicking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2318907\OneDrive - Cognizant\eclipse\HackthonProject_V2\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.Listeners&quot;/&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ZigWheels(Chrome)-Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testsBase.BaseClass&quot;/&gt;
+      &lt;class name=&quot;testSuites.TestSuite1_UpcomingHondaBikes&quot;/&gt;
+      &lt;class name=&quot;testSuites.TestSuite2_UsedCarsInChennai&quot;/&gt;
+      &lt;class name=&quot;testSuites.TestSuite3_Login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ZigWheels(Chrome)-Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ZigWheels(Chrome)-Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'displayBelow4LakhBikeDetails')
+data.setCell(0, 2, 'testSuites.TestSuite1_UpcomingHondaBikes')
+data.setCell(0, 3, 16862);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateGoogleLink')
+data.setCell(1, 2, 'testSuites.TestSuite3_Login')
+data.setCell(1, 3, 5336);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'displayAllBikeDetails')
+data.setCell(2, 2, 'testSuites.TestSuite1_UpcomingHondaBikes')
+data.setCell(2, 3, 4893);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateManufacturerDropdown')
+data.setCell(3, 2, 'testSuites.TestSuite1_UpcomingHondaBikes')
+data.setCell(3, 3, 4590);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateNewBikesDropdown')
+data.setCell(4, 2, 'testSuites.TestSuite1_UpcomingHondaBikes')
+data.setCell(4, 3, 3156);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateChennaiLink')
+data.setCell(5, 2, 'testSuites.TestSuite2_UsedCarsInChennai')
+data.setCell(5, 3, 2827);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateUpcomingBikesButton')
+data.setCell(6, 2, 'testSuites.TestSuite1_UpcomingHondaBikes')
+data.setCell(6, 3, 2222);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateUpcomingHondaBikes')
+data.setCell(7, 2, 'testSuites.TestSuite1_UpcomingHondaBikes')
+data.setCell(7, 3, 2104);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'captureErrorMessafeWithInvalidMail')
+data.setCell(8, 2, 'testSuites.TestSuite3_Login')
+data.setCell(8, 3, 1276);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateHondaButton')
+data.setCell(9, 2, 'testSuites.TestSuite1_UpcomingHondaBikes')
+data.setCell(9, 3, 1198);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateUsedCarsDropdown')
+data.setCell(10, 2, 'testSuites.TestSuite2_UsedCarsInChennai')
+data.setCell(10, 3, 1171);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'displayPopularModels')
+data.setCell(11, 2, 'testSuites.TestSuite2_UsedCarsInChennai')
+data.setCell(11, 3, 1006);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateLoginScreenVisible')
+data.setCell(12, 2, 'testSuites.TestSuite3_Login')
+data.setCell(12, 3, 282);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateHondaButtonIsClickable')
+data.setCell(13, 2, 'testSuites.TestSuite1_UpcomingHondaBikes')
+data.setCell(13, 3, 175);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateGoogleButtonIsClickable')
+data.setCell(14, 2, 'testSuites.TestSuite3_Login')
+data.setCell(14, 3, 158);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateUpcomingBikeIsClickable')
+data.setCell(15, 2, 'testSuites.TestSuite1_UpcomingHondaBikes')
+data.setCell(15, 3, 140);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validatePopularModelsIsDisplayed')
+data.setCell(16, 2, 'testSuites.TestSuite2_UsedCarsInChennai')
+data.setCell(16, 3, 126);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validateViewMoreButtonIsClickable')
+data.setCell(17, 2, 'testSuites.TestSuite1_UpcomingHondaBikes')
+data.setCell(17, 3, 104);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validateChennaiIsClickable')
+data.setCell(18, 2, 'testSuites.TestSuite2_UsedCarsInChennai')
+data.setCell(18, 3, 78);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'valiateLoginButtonIsClickable')
+data.setCell(19, 2, 'testSuites.TestSuite3_Login')
+data.setCell(19, 3, 69);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateTheMessage')
+data.setCell(20, 2, 'testSuites.TestSuite1_UpcomingHondaBikes')
+data.setCell(20, 3, 37);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSuites.TestSuite1_UpcomingHondaBikes</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateNewBikesDropdown</span>
+                <span class="method-start">10167 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateUpcomingBikeIsClickable</span>
+                <span class="method-start">13370 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateUpcomingBikesButton</span>
+                <span class="method-start">13512 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateManufacturerDropdown</span>
+                <span class="method-start">15737 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateHondaButtonIsClickable</span>
+                <span class="method-start">20331 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateHondaButton</span>
+                <span class="method-start">20511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateViewMoreButtonIsClickable</span>
+                <span class="method-start">21715 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateUpcomingHondaBikes</span>
+                <span class="method-start">21825 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateTheMessage</span>
+                <span class="method-start">23933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayAllBikeDetails</span>
+                <span class="method-start">23972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayBelow4LakhBikeDetails</span>
+                <span class="method-start">28868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45733 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSuites.TestSuite2_UsedCarsInChennai</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">54117 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateUsedCarsDropdown</span>
+                <span class="method-start">64873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateChennaiIsClickable</span>
+                <span class="method-start">66048 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateChennaiLink</span>
+                <span class="method-start">66127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatePopularModelsIsDisplayed</span>
+                <span class="method-start">68956 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayPopularModels</span>
+                <span class="method-start">69087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70097 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSuites.TestSuite3_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">73431 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">valiateLoginButtonIsClickable</span>
+                <span class="method-start">82071 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLoginScreenVisible</span>
+                <span class="method-start">82142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGoogleButtonIsClickable</span>
+                <span class="method-start">82428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGoogleLink</span>
+                <span class="method-start">82589 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">captureErrorMessafeWithInvalidMail</span>
+                <span class="method-start">87928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89205 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
